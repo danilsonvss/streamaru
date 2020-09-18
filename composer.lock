@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b56bfb5d21eaae286e532c3ed2f8941",
+    "content-hash": "3f4ff69f2a522d87dcdb6249d0c8f903",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1179,6 +1179,42 @@
             ],
             "description": "Mime-type detection for Flysystem",
             "time": "2020-08-09T10:34:01+00:00"
+        },
+        {
+            "name": "minicli/curly",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/minicli/curly.git",
+                "reference": "50c0e8813adf66f298b862a5150c0acc00f3f18e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/minicli/curly/zipball/50c0e8813adf66f298b862a5150c0acc00f3f18e",
+                "reference": "50c0e8813adf66f298b862a5150c0acc00f3f18e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minicli\\Curly\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple Curl Client",
+            "homepage": "https://github.com/erikaheidi/minicli",
+            "keywords": [
+                "api",
+                "curl",
+                "wrapper"
+            ],
+            "time": "2020-02-24T10:33:43+00:00"
         },
         {
             "name": "monolog/monolog",
